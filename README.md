@@ -1,4 +1,4 @@
-## Running the Project with Docker
+<img width="1910" height="839" alt="image" src="https://github.com/user-attachments/assets/028daee0-c426-4960-ac63-36c3454c5a2b" />## Running the Project with Docker
 
 Build the Docker image:
 
@@ -25,6 +25,8 @@ fera-fuel-efficiency-recommender-analyzer/
 ├── run_local.bat
 └── static/
 ```
+
+FERA backup: run run_fast.bat after building once or use run_local.bat for local run.
 
 
 Introduction
