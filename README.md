@@ -1,3 +1,24 @@
+ Running the Project with Docker
+Build the Docker image:
+docker build -t fera .
+Run the container:
+docker run -p 8000:8000 fera
+
+ Project Structure
+
+fera-fuel-efficiency-recommender-analyzer/
+│
+├── Dockerfile
+├── server.py
+├── eff_model.joblib
+├── health_model.joblib
+├── run.bat
+├── run_fast.bat
+├── run_local.bat
+└── static/
+
+
+
 Introduction
 FERA (Fuel Efficiency Recommender & Analyzer) is an intelligent system designed to
 evaluate, predict, and improve fuel efficiency in internal combustion engines. The system
