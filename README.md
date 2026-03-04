@@ -1,11 +1,19 @@
- Running the Project with Docker
+## Running the Project with Docker
+
 Build the Docker image:
+
+```
 docker build -t fera .
+```
+
 Run the container:
+
+```
 docker run -p 8000:8000 fera
+```
+## Project Structure
 
- Project Structure
-
+```
 fera-fuel-efficiency-recommender-analyzer/
 │
 ├── Dockerfile
@@ -16,7 +24,7 @@ fera-fuel-efficiency-recommender-analyzer/
 ├── run_fast.bat
 ├── run_local.bat
 └── static/
-
+```
 
 
 Introduction
