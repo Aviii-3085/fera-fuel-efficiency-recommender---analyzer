@@ -1,4 +1,3 @@
-
 Build the Docker image:
 
 ```
